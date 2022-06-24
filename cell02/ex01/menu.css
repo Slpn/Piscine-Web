@@ -1,0 +1,30 @@
+.bg_sncf {
+    
+    width: 100vw;
+    height: 100vh;
+    background-image:url("/mnt/nfs/homes/snarain/Pictures/Train.jpg");
+
+}
+.box {
+    position: relative;
+    text-align: center;
+}
+
+.sub_box
+{
+    display: none;
+    text-align: center;
+	padding-left: 33%;
+	padding-right: 33%;
+}
+
+.sub_box p:hover{
+    background-color:beige;
+}
+
+.box:hover .sub_box {
+    display: block;
+}
+.box:hover .mainbuttom {
+    background-color:grey;
+}
